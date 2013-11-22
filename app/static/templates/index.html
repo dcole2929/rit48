@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ToDo</title>
+	<script data-main="js/main" src="js/libs/require.js"></script>
+</head>
+<body>
+
+	<!-- Todo App containers !-->
+	<div id="container">
+		<div id="title">
+			<h1>Todos</h1>
+		</div>
+		
+		<div id="content">	
+			<div id="create-todo">
+				<input id="new-todo" placeholder="What needs to be done?" type="text" />
+				<span class="ui-tooltip-top" style="display:none">Press Enter to save todo</span>
+			</div>
+
+			<div id="todoos">
+				<ul id="todo-list"></ul>
+			</div>
+		</div>
+
+		<div id="stats"></div>
+	</div>
+
+	<ul id="instructions">
+		<li>Double-click to edit a todo.</li>
+		<li>Link to source</li>
+	</ul>
+
+</body>
+
+</html>
