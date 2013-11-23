@@ -1,0 +1,175 @@
+2013-11-23T14:07:47.414670000 0.537273s info: Creating directory /Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data
+2013-11-23T14:07:47.414940000 0.537542s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data' did not already exist.)
+2013-11-23T14:07:47.415011000 0.537613s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T14:07:47.421562000 0.544164s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T14:07:47.421879000 0.544481s info: Loading data from directory /Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data
+2013-11-23T14:07:49.483846000 2.606527s info: Listening for intracluster connections on port 29015
+2013-11-23T14:07:49.486180000 2.608861s info: Listening for client driver connections on port 28015
+2013-11-23T14:07:49.486210000 2.608891s info: Listening for administrative HTTP connections on port 8080
+2013-11-23T14:07:49.486213000 2.608894s info: Listening on addresses: 127.0.0.1
+2013-11-23T14:07:49.486214000 2.608895s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-11-23T14:07:49.486215000 2.608896s info: by running rethinkdb with the `--bind all` command line option.
+2013-11-23T14:07:49.486216000 2.608897s info: Server ready
+2013-11-23T14:08:34.301471000 47.425923s info: Server got SIGINT; shutting down...
+2013-11-23T14:08:34.301799000 47.426252s info: Shutting down client connections...
+2013-11-23T14:08:34.302353000 47.426805s info: All client connections closed.
+2013-11-23T14:08:34.302364000 47.426816s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T14:08:34.302366000 47.426818s info: Storage engine shut down.
+2013-11-23T14:12:19.998252000 0.361225s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T14:12:20.005294000 0.368266s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T14:12:20.005623000 0.368595s info: Loading data from directory /Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data
+2013-11-23T14:12:20.108353000 0.471324s info: Listening for intracluster connections on port 29015
+2013-11-23T14:12:20.110903000 0.473875s info: Listening for client driver connections on port 28015
+2013-11-23T14:12:20.110933000 0.473904s info: Listening for administrative HTTP connections on port 8080
+2013-11-23T14:12:20.110936000 0.473907s info: Listening on addresses: 127.0.0.1
+2013-11-23T14:12:20.110937000 0.473908s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-11-23T14:12:20.110938000 0.473909s info: by running rethinkdb with the `--bind all` command line option.
+2013-11-23T14:12:20.110939000 0.473910s info: Server ready
+2013-11-23T14:14:53.894597000 154.263631s info: Applying data {"databases":{"new":{"name":"todoapp"}}}
+2013-11-23T14:15:08.839698000 169.209323s info: Applying data {"rdb_namespaces":{"new":{"name":"todos","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"88e92ed7-2784-4f69-9923-16e57e016053","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}
+2013-11-23T14:30:51.081836000 1111.488628s info: Applying data {"machines":{"b88eab80-3862-49aa-93b0-5cd2d02c22ae":{"name":"derp"}}}
+2013-11-23T14:45:38.896276000 1999.338172s info: Applying data {"databases":{"new":{"name":"rit48app"}}}
+2013-11-23T14:45:54.442702000 2014.885191s info: Applying data {"rdb_namespaces":{"new":{"name":"events","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"7af128ff-cdcd-4b3c-90f1-df1329804d13","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}
+2013-11-23T14:48:42.160179000 2182.609308s info: Applying data {"rdb_namespaces":{"new":{"name":"users","primary_uuid":"00000000-0000-0000-0000-000000000000","database":"7af128ff-cdcd-4b3c-90f1-df1329804d13","ack_expectations":{"00000000-0000-0000-0000-000000000000":{"expectation":1,"hard_durability":true}}}}}
+2013-11-23T15:12:29.958652000 3610.463908s info: Server got SIGINT; shutting down...
+2013-11-23T15:12:29.958919000 3610.464175s info: Shutting down client connections...
+2013-11-23T15:12:29.963414000 3610.468669s info: All client connections closed.
+2013-11-23T15:12:29.963416000 3610.468671s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T15:12:29.981086000 3610.486341s info: Storage engine shut down.
+2013-11-23T15:13:28.728324000 0.583456s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T15:13:28.737185000 0.592316s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T15:13:28.737585000 0.592716s info: Loading data from directory /Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data
+2013-11-23T15:13:28.844138000 0.699269s info: Listening for intracluster connections on port 29015
+2013-11-23T15:13:28.857101000 0.712231s info: Listening for client driver connections on port 28015
+2013-11-23T15:13:28.857146000 0.712277s info: Listening for administrative HTTP connections on port 9000
+2013-11-23T15:13:28.857149000 0.712279s info: Listening on addresses: 127.0.0.1
+2013-11-23T15:13:28.857150000 0.712281s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-11-23T15:13:28.857151000 0.712282s info: by running rethinkdb with the `--bind all` command line option.
+2013-11-23T15:13:28.857152000 0.712282s info: Server ready
+2013-11-23T15:14:01.019046000 32.875435s info: Server got SIGINT; shutting down...
+2013-11-23T15:14:01.019268000 32.875656s info: Shutting down client connections...
+2013-11-23T15:14:01.031377000 32.887765s info: All client connections closed.
+2013-11-23T15:14:01.031387000 32.887776s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T15:14:01.037669000 32.894058s info: Storage engine shut down.
+2013-11-23T15:14:02.066724000 0.004388s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T15:14:02.089022000 0.026686s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T15:14:02.089520000 0.027184s info: Loading data from directory /Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data
+2013-11-23T15:14:02.259757000 0.197420s info: Listening for intracluster connections on port 29015
+2013-11-23T15:14:02.263087000 0.200751s info: Listening for client driver connections on port 28015
+2013-11-23T15:14:02.263130000 0.200793s info: Listening for administrative HTTP connections on port 9000
+2013-11-23T15:14:02.263133000 0.200797s info: Listening on addresses: 127.0.0.1
+2013-11-23T15:14:02.263135000 0.200798s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-11-23T15:14:02.263136000 0.200799s info: by running rethinkdb with the `--bind all` command line option.
+2013-11-23T15:14:02.263136000 0.200800s info: Server ready
+2013-11-23T15:15:11.217187000 69.157562s info: Server got SIGINT; shutting down...
+2013-11-23T15:15:11.217476000 69.157851s info: Shutting down client connections...
+2013-11-23T15:15:11.217920000 69.158294s info: All client connections closed.
+2013-11-23T15:15:11.217929000 69.158304s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T15:15:11.239651000 69.180026s info: Storage engine shut down.
+2013-11-23T15:25:31.089870000 0.255161s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T15:25:31.096693000 0.261983s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T15:25:31.097004000 0.262293s info: Loading data from directory /Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data
+2013-11-23T15:25:31.202029000 0.367358s info: Listening for intracluster connections on port 29015
+2013-11-23T15:25:31.205560000 0.370889s info: Listening for client driver connections on port 28015
+2013-11-23T15:25:31.205598000 0.370927s info: Listening for administrative HTTP connections on port 8080
+2013-11-23T15:25:31.208348000 0.373677s info: Listening on addresses: 127.0.0.1, 129.21.145.4
+2013-11-23T15:25:31.208359000 0.373688s info: Server ready
+2013-11-23T15:26:06.614243000 35.780908s info: Server got SIGINT; shutting down...
+2013-11-23T15:26:06.614530000 35.781195s info: Shutting down client connections...
+2013-11-23T15:26:06.614865000 35.781530s info: All client connections closed.
+2013-11-23T15:26:06.614876000 35.781541s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T15:26:06.624576000 35.791241s info: Storage engine shut down.
+2013-11-23T15:26:16.313568000 0.006774s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T15:26:16.319794000 0.013000s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T15:26:16.320121000 0.013326s info: Loading data from directory /Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data
+2013-11-23T15:26:16.427857000 0.121062s info: Listening for intracluster connections on port 29015
+2013-11-23T15:26:16.432293000 0.125498s info: Listening for client driver connections on port 28015
+2013-11-23T15:26:16.432681000 0.125887s info: Listening for administrative HTTP connections on port 9000
+2013-11-23T15:26:16.433452000 0.126658s info: Listening on addresses: 127.0.0.1, 129.21.145.4
+2013-11-23T15:26:16.433454000 0.126659s info: Server ready
+2013-11-23T15:30:56.037661000 279.741869s info: Connected to server "Tinker" aaac6b49-ce5a-41be-b2a2-bc2eda23a3bd
+2013-11-23T15:31:03.896828000 287.601350s info: Disconnected from server "Tinker" aaac6b49-ce5a-41be-b2a2-bc2eda23a3bd
+2013-11-23T15:31:53.039292000 336.745741s info: Connected to server "Tinker" aaac6b49-ce5a-41be-b2a2-bc2eda23a3bd
+2013-11-23T15:32:24.138682000 367.846349s info: Disconnected from server "Tinker" aaac6b49-ce5a-41be-b2a2-bc2eda23a3bd
+2013-11-23T15:32:35.109289000 378.817388s info: Deleting /machines/aaac6b49-ce5a-41be-b2a2-bc2eda23a3bd
+2013-11-23T17:43:44.159356000 8248.176676s info: Connected to server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:39:19.489341000 9672.912963s error: Heartbeat timeout, killing connection to peer: 0887cb7d-7419-4dfc-9154-6f8c82b6ec00.
+2013-11-23T18:39:19.489675000 9672.913297s error: Could not shutdown socket for writing: Can't assign requested address
+2013-11-23T18:39:19.489701000 9672.913324s info: Disconnected from server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:40:50.505204000 9763.930681s info: Connected to server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:41:49.724550000 9823.151264s info: Server got SIGINT; shutting down...
+2013-11-23T18:41:49.724995000 9823.151709s info: Shutting down client connections...
+2013-11-23T18:41:49.725275000 9823.151989s info: All client connections closed.
+2013-11-23T18:41:49.725283000 9823.151997s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T18:41:49.737383000 9823.164096s info: Storage engine shut down.
+2013-11-23T18:41:49.738012000 9823.164725s info: Disconnected from server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:41:51.258697000 0.748004s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T18:41:51.349368000 0.838675s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T18:41:51.349744000 0.839050s info: Loading data from directory /Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data
+2013-11-23T18:41:51.434160000 0.923465s info: Listening for intracluster connections on port 29015
+2013-11-23T18:41:51.437341000 0.926647s info: Listening for client driver connections on port 28015
+2013-11-23T18:41:51.437369000 0.926675s info: Listening for administrative HTTP connections on port 9000
+2013-11-23T18:41:51.440262000 0.929568s info: Listening on addresses: 127.0.0.1, 129.21.145.4
+2013-11-23T18:41:51.440269000 0.929575s info: Server ready
+2013-11-23T18:41:51.907395000 1.396701s info: Connected to server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:41:58.293032000 7.622989s info: Server got SIGINT; shutting down...
+2013-11-23T18:41:58.293321000 7.623278s info: Shutting down client connections...
+2013-11-23T18:41:58.296395000 7.626352s info: All client connections closed.
+2013-11-23T18:41:58.296406000 7.626362s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T18:41:58.303267000 7.633223s info: Storage engine shut down.
+2013-11-23T18:41:58.303919000 7.633876s info: Disconnected from server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:42:01.616029000 0.004248s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T18:42:01.621846000 0.010065s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T18:42:01.621907000 0.010125s info: Loading data from directory /Users/Jason/git/rethinkdb-example-flask-backbone-todo/rethinkdb_data
+2013-11-23T18:42:01.745028000 0.133246s info: Listening for intracluster connections on port 29015
+2013-11-23T18:42:01.748697000 0.136915s info: Listening for client driver connections on port 28015
+2013-11-23T18:42:01.748725000 0.136943s info: Listening for administrative HTTP connections on port 9000
+2013-11-23T18:42:01.751807000 0.140025s info: Listening on addresses: 127.0.0.1, 129.21.145.4
+2013-11-23T18:42:01.751815000 0.140033s info: Server ready
+2013-11-23T18:42:03.951153000 2.339371s info: Connected to server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:48:55.871479000 414.268351s info: Server got SIGINT; shutting down...
+2013-11-23T18:48:55.871841000 414.268713s info: Shutting down client connections...
+2013-11-23T18:48:55.872158000 414.269030s info: All client connections closed.
+2013-11-23T18:48:55.872166000 414.269038s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T18:48:55.879107000 414.275979s info: Storage engine shut down.
+2013-11-23T18:48:55.879791000 414.276663s info: Disconnected from server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:51:17.339778000 0.188782s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T18:51:17.346567000 0.195570s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T18:51:17.346901000 0.195904s info: Loading data from directory /Users/Jason/git/rit48/rethinkdb_data
+2013-11-23T18:51:17.360499000 0.209502s info: Listening for intracluster connections on port 29015
+2013-11-23T18:51:17.363661000 0.212664s info: Listening for client driver connections on port 28015
+2013-11-23T18:51:17.363687000 0.212689s info: Listening for administrative HTTP connections on port 9000
+2013-11-23T18:51:17.368101000 0.217104s info: Listening on addresses: 127.0.0.1, 129.21.145.4
+2013-11-23T18:51:17.368112000 0.217115s info: Server ready
+2013-11-23T18:51:29.087015000 11.936431s info: Connected to server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:51:34.409653000 17.259068s info: Server got SIGINT; shutting down...
+2013-11-23T18:51:34.409914000 17.259329s info: Shutting down client connections...
+2013-11-23T18:51:34.412678000 17.262093s info: All client connections closed.
+2013-11-23T18:51:34.412680000 17.262096s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T18:51:34.420640000 17.270056s info: Storage engine shut down.
+2013-11-23T18:51:34.447739000 17.297154s info: Disconnected from server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:52:06.505938000 0.004181s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T18:52:06.512037000 0.010280s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T18:52:06.512106000 0.010348s info: Loading data from directory /Users/Jason/git/rit48/rethinkdb_data
+2013-11-23T18:52:06.986349000 0.484591s info: Listening for intracluster connections on port 29015
+2013-11-23T18:52:06.993886000 0.492128s info: Listening for client driver connections on port 28015
+2013-11-23T18:52:06.993920000 0.492162s info: Listening for administrative HTTP connections on port 9000
+2013-11-23T18:52:06.997511000 0.495754s info: Listening on addresses: 127.0.0.1, 129.21.145.4
+2013-11-23T18:52:06.997519000 0.495761s info: Server ready
+2013-11-23T18:52:08.852786000 2.351234s info: Connected to server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:52:26.261847000 19.760501s info: Applying data {"databases":{"88e92ed7-2784-4f69-9923-16e57e016053":null},"rdb_namespaces":{"00a1349a-8edd-4333-b4f5-762c770253e0":null}}
+2013-11-23T18:53:31.434918000 84.935015s info: Server got SIGINT; shutting down...
+2013-11-23T18:53:31.435337000 84.935434s info: Shutting down client connections...
+2013-11-23T18:53:31.435558000 84.935654s info: All client connections closed.
+2013-11-23T18:53:31.435565000 84.935661s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T18:53:31.441035000 84.941131s info: Storage engine shut down.
+2013-11-23T18:53:31.441996000 84.942092s info: Disconnected from server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T18:53:41.531240000 0.702483s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T18:53:41.538569000 0.709811s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T18:53:41.538904000 0.710146s info: Loading data from directory /Users/Jason/git/rit48/rethinkdb_data
+2013-11-23T18:53:41.673505000 0.844746s info: Listening for intracluster connections on port 29015
+2013-11-23T18:53:41.677012000 0.848254s info: Listening for client driver connections on port 28015
+2013-11-23T18:53:41.677040000 0.848282s info: Listening for administrative HTTP connections on port 9000
+2013-11-23T18:53:41.678479000 0.849721s info: Listening on addresses: 127.0.0.1, 129.21.145.4
+2013-11-23T18:53:41.678481000 0.849722s info: Server ready
+2013-11-23T18:53:44.094703000 3.265945s info: Connected to server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
