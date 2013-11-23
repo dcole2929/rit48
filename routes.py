@@ -49,6 +49,38 @@ def teardown_request(exception):
 
 #### Managing routes
 
+#### Listing existing events
+@app.route("/events", methods=['GET'])
+def get_events():
+    selection = list(r.table('events').run(g.rdb_conn))
+    return json.dumps(selection)
+
+#### Creating an event
+@app.route("/events", methods=['POST'])
+def new_event():
+    inserted = r.table('events').insert(request.json).run(g.rdb_conn)
+    return jsonify(id=inserted['generated_keys'][0])
+
+#### Retrieving a single event
+@app.route("/events/<string:event_id>", methods=['GET'])
+def get_event(event_id):
+    event = r.table('events').get(event_id).run(g.rdb_conn)
+    return json.dumps(event)
+
+#### Editing/Updating an event
+@app.route("/events/<string:event_id>", methods=['PUT'])
+def update_event(event_id):
+    return jsonify(r.table('events').get(event_id).replace(request.json).run(g.rdb_conn))
+
+@app.route("/events/<string:event_id>", methods=['PATCH'])
+def patch_event(event_id):
+    return jsonify(r.table('events').get(event_id).update(request.json).run(g.rdb_conn))
+
+#### Deleting an event
+@app.route("/events/<string:event_id>", methods=['DELETE'])
+def delete_event(event_id):
+    return jsonify(r.table('events').get(event_id).delete().run(g.rdb_conn))
+
 @app.route('/')
 def home():
 	return render_template('index.html')
