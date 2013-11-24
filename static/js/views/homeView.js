@@ -6,8 +6,9 @@ define([
 	'collections/eventCollection',
 	'views/eventTileView',
 	'text!../../templates/carousel_template.htm',
-	'text!../../templates/mainNavTemplate.htm',
-], function ($, _, Backbone, Bootstrap, EventCollection, EventTileView, CarouselTemplate, MainNav) {
+	'text!../../templates/mainnav_template.htm',
+	'text!../../templates/tile_template.htm'
+], function ($, _, Backbone, Bootstrap, EventCollection, EventTileView, CarouselTemplate, MainNav, EventTile) {
 
 	'use strict';
 
@@ -31,14 +32,13 @@ define([
 			this.$liCarousel =  this.$('#carouselTargets');
 			this.$citems = this.$('#citems');
 			this.$navbar = this.$('#mainNav');
+			this.$eventList = this.$('#event-list');
 
 			// Bind to collections events
 			//this.listenTo(EventCollection, 'all', this.render);
 			EventCollection.fetch({
 				success: function() {
 					me.render();
-					me.render_carousel();
-					me.render_tiles();
 				},
 				error: function() {
 					console.log("error: failed to fetch");
@@ -54,12 +54,10 @@ define([
 			// banner.setAttribute("width",512);
 			// this.$banner.append(banner);
 
-			// var template = _.template(mainNav);
-		// 	this.$navbar.append(template({"linkTo": '#', 'text': 'Who\'s In!?'}));
-		// 	var ul = this.$navbar.find('ul');
-		// 	ul.append('<li class="active"><a href="#">Home</a></li>');
-		// 	ul.append('<li class="active"><a href="#">About</a></li>');
-		// 	ul.append('<li class="active"><a href="#">Contact</a></li>');
+			this.render_carousel();
+			this.render_tiles();
+			this.render_nav(); 
+			
 		},
 
 		render_carousel: function () {
@@ -79,7 +77,28 @@ define([
 			$('.carousel').carousel();
 		},
 
+		render_nav: function() {
+			var template = _.template(MainNav);
+			this.$navbar.append(template({"linkTo": '#', 'text': 'Who\'s In!?'}));
+			var ul = this.$navbar.find('ul');
+			ul.append('<li class="active"><a href="#">Home</a></li>');
+			ul.append('<li class="active"><a href="#">About</a></li>');
+			ul.append('<li class="active"><a href="#">Contact</a></li>');
+		},
+
 		render_tiles: function() {
+			//this.$eventList
+			var template = _.template(EventTile);
+			for (var i = 0; i < 5; i++) {
+				var row = $('<div>');
+				$(row).addClass("row");
+				for (var j = 0; j < 4; j++) {
+					console.log(i * 4 + j);
+					$(row).appendTo(template(EventCollection.at(i * 4 + j).toJSON()));
+				}
+				this.$eventList.append(row); 
+			}
+
 
 		}
 
