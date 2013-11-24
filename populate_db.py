@@ -22,8 +22,7 @@ def create_events_table():
 def drop_events_table():
 	r.db('rit48app').table_drop('events').run()
 
-EVENTS = ['Poker', 'Pool', 'Darts', 'Shuffleboard']
-ADJECTIVES = ['Fun', 'Spicy', 'Big', 'Super']
+EVENTS = ['A game of poker', 'A game of pool', 'Swimming', 'Darts', 'Java\'s', 'The bar', 'A concert in Ingle']
 FIRST_NAMES = ['Jason', 'Doug', 'Fred', 'Tom', 'Jake']
 LAST_NAMES = ['Smith', 'Farmer', 'Johnson', 'Donaldson']
 INTERESTS = ['Boardgames', 'Videogames', 'Coffee', 'Dancing', 'Fun', 'Chill']
@@ -31,13 +30,21 @@ INTERESTS = ['Boardgames', 'Videogames', 'Coffee', 'Dancing', 'Fun', 'Chill']
 def get_name():
 	return random.choice(FIRST_NAMES) + ' ' + random.choice(LAST_NAMES)
 
+def get_description(event_name):
+	x = ['Who wants to meet up for ', 'Anyone up for ']
+	y = [' today', ' tomorrow']
+	s = random.sample(x, 1)[0] + event_name.lower() + random.sample(y, 1)[0] + '? '
+	s += 'Looks like ' + str(random.randint(2, 4)) + ' people are already attending.'
+	return s
+
 def event_generator():
 	while True:
 		event = {}
-		event['title'] = random.choice(ADJECTIVES) + ' ' + random.choice(EVENTS)
+		event_name = random.choice(EVENTS)
+		event['title'] = event_name
 		event['time'] = str(calendar.timegm(datetime.utcnow().utctimetuple()))
 		event['place'] = 'c'
-		event['description'] = 'd'
+		event['description'] = get_description(event_name)
 		event['attendants'] = [get_name() for _ in xrange(random.randint(1, 3))]
 		event['picture'] = 'f'
 		event['rating'] = 5
