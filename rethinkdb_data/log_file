@@ -173,3 +173,39 @@
 2013-11-23T18:53:41.678479000 0.849721s info: Listening on addresses: 127.0.0.1, 129.21.145.4
 2013-11-23T18:53:41.678481000 0.849722s info: Server ready
 2013-11-23T18:53:44.094703000 3.265945s info: Connected to server "Vengeful" c56135b0-28bc-48b2-8bae-414155cc3864
+2013-11-23T19:44:11.820191000 0.007300s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T19:44:11.823898000 0.011007s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T19:44:11.823978000 0.011086s info: Loading data from directory /Users/doug/dev/rit48/rethinkdb_data
+2013-11-23T19:44:11.832528000 0.019636s info: Listening for intracluster connections on port 29015
+2013-11-23T19:44:11.832655000 0.019763s info: Attempting connection to 1 peer...
+2013-11-23T19:44:11.946790000 0.133898s info: Listening for client driver connections on port 28015
+2013-11-23T19:44:11.946826000 0.133934s info: Listening for administrative HTTP connections on port 8080
+2013-11-23T19:44:11.946828000 0.133936s info: Listening on addresses: 127.0.0.1
+2013-11-23T19:44:11.946829000 0.133937s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-11-23T19:44:11.946830000 0.133938s info: by running rethinkdb with the `--bind all` command line option.
+2013-11-23T19:44:11.946831000 0.133939s info: Server ready
+2013-11-23T19:44:11.947244000 0.134352s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T19:45:32.994005000 81.183852s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T19:45:38.132148000 86.322167s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T22:03:53.504062000 8381.967994s error: Heartbeat timeout, killing connection to peer: 63a733ac-ac5d-44c9-bd5f-461735f19b70.
+2013-11-23T22:03:53.504574000 8381.968506s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T22:30:41.077300000 8825.485898s info: Server got SIGINT; shutting down...
+2013-11-23T22:30:41.077560000 8825.486158s info: Shutting down client connections...
+2013-11-23T22:30:41.077788000 8825.486385s info: All client connections closed.
+2013-11-23T22:30:41.077798000 8825.486395s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T22:30:41.082189000 8825.490786s info: Storage engine shut down.
+2013-11-23T22:30:43.815208000 0.277111s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T22:30:43.819800000 0.281703s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T22:30:43.819863000 0.281765s info: Loading data from directory /Users/doug/dev/rit48/rethinkdb_data
+2013-11-23T22:30:43.833323000 0.295225s info: Listening for intracluster connections on port 29015
+2013-11-23T22:30:43.833453000 0.295354s info: Attempting connection to 1 peer...
+2013-11-23T22:31:22.499284000 0.003011s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T22:31:22.503110000 0.006837s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T22:31:22.503164000 0.006890s info: Loading data from directory /Users/doug/dev/rit48/rethinkdb_data
+2013-11-23T22:31:22.514720000 0.018446s info: Listening for intracluster connections on port 29015
+2013-11-23T22:31:22.516152000 0.019878s info: Listening for client driver connections on port 28015
+2013-11-23T22:31:22.516173000 0.019899s info: Listening for administrative HTTP connections on port 8080
+2013-11-23T22:31:22.516176000 0.019902s info: Listening on addresses: 127.0.0.1
+2013-11-23T22:31:22.516177000 0.019903s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-11-23T22:31:22.516177000 0.019904s info: by running rethinkdb with the `--bind all` command line option.
+2013-11-23T22:31:22.516178000 0.019904s info: Server ready

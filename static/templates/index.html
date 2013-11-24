@@ -2,13 +2,27 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>ToDo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Who's In!?</title>
+	<link rel="stylesheet" href="static/css/style.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="static/bootstrap/css/bootstrap-responsive.css">
+	<!-- Require -->
 	<script data-main="static/js/main" src="static/js/libs/require.js"></script>
 </head>
 <body>
 
 	<div id="container">
-		<div id="title">
+		<div id="mainNav" class="navbar">
+		</div>
+
+		<div id="myCarousel" class="carousel slide">
+			<ol id="carouselTargets" class="carousel-indicators"></ol>
+			<div id="citems" class="carousel-inner"></div>
+			<!-- Carousel nav -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
 		</div>
 		
 		<div id="content">	
@@ -21,11 +35,6 @@
 		</div>
 
 	</div>
-
-	<ul id="instructions">
-		<li>Double-click to edit a todo.</li>
-		<li>Link to source</li>
-	</ul>
 
 </body>
 
