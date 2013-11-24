@@ -20,3 +20,7 @@ div.span3 {
 div.span3 p {
 	border-top: #888 1px solid;
 }
+
+div.span3 img {
+	width: 270px;
+}
