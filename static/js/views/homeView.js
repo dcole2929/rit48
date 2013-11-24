@@ -13,10 +13,10 @@ define([
 	'use strict';
 
 	var list = [
-		{'src':'static/img/img10.png' ,'title':'Monkey', 'descr': 'blue monkey or something'},
-		{'src':'static/img/img11.png' ,'title':'Monkey', 'descr': 'blue monkey or something'},
-		{'src':'static/img/img11.png' ,'title':'Monkey', 'descr': 'blue monkey or something'},
-		{'src':'static/img/img12.png' ,'title':'Monkey', 'descr': 'blue monkey or something'}
+		{'src':'static/img/img10.png' ,'title':'Meet new people', 'descr': ''},
+		{'src':'static/img/img11.png' ,'title':'Go on adventures', 'descr': 'And have some fun'},
+		{'src':'static/img/img12.png' ,'title':'Socialize', 'descr': ''},
+		{'src':'static/img/img13.png' ,'title':'Live life', 'descr': ''}
 	];
 
 	var homeView = Backbone.View.extend({
