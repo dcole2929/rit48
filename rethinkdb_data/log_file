@@ -230,3 +230,29 @@
 2013-11-24T02:20:56.634758000 0.030488s info: Listening for administrative HTTP connections on port 9000
 2013-11-24T02:20:56.638974000 0.034703s info: Listening on addresses: 127.0.0.1, 192.168.0.31
 2013-11-24T02:20:56.638983000 0.034712s info: Server ready
+2013-11-24T05:26:18.549425000 11121.482001s info: Server got SIGINT; shutting down...
+2013-11-24T05:26:18.549731000 11121.482307s info: Shutting down client connections...
+2013-11-24T05:26:18.550030000 11121.482606s info: All client connections closed.
+2013-11-24T05:26:18.550031000 11121.482608s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-24T05:26:18.555756000 11121.488333s info: Storage engine shut down.
+2013-11-24T05:26:23.066726000 0.365468s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-24T05:26:23.165380000 0.464122s info: Running on Darwin 13.0.0 x86_64
+2013-11-24T05:26:23.165786000 0.464527s info: Loading data from directory /Users/Jason/git/rit48/rethinkdb_data
+2013-11-24T05:26:23.196377000 0.495119s info: Listening for intracluster connections on port 29015
+2013-11-24T05:26:23.201603000 0.500344s info: Listening for client driver connections on port 28015
+2013-11-24T05:26:23.201637000 0.500378s info: Listening for administrative HTTP connections on port 9000
+2013-11-24T05:26:23.209235000 0.507977s info: Listening on addresses: 127.0.0.1, 192.168.0.31
+2013-11-24T05:26:23.209245000 0.507986s info: Server ready
+2013-11-24T05:30:30.213285000 247.520395s info: Server got SIGINT; shutting down...
+2013-11-24T05:30:30.213630000 247.520739s info: Shutting down client connections...
+2013-11-24T05:30:30.213877000 247.520986s info: All client connections closed.
+2013-11-24T05:30:30.213885000 247.520994s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-24T05:30:30.219911000 247.527020s info: Storage engine shut down.
+2013-11-24T05:30:32.524415000 0.295823s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-24T05:30:32.531414000 0.302822s info: Running on Darwin 13.0.0 x86_64
+2013-11-24T05:30:32.531740000 0.303147s info: Loading data from directory /Users/Jason/git/rit48/rethinkdb_data
+2013-11-24T05:30:32.774976000 0.546384s info: Listening for intracluster connections on port 29015
+2013-11-24T05:30:32.778007000 0.549415s info: Listening for client driver connections on port 28015
+2013-11-24T05:30:32.778036000 0.549444s info: Listening for administrative HTTP connections on port 9000
+2013-11-24T05:30:32.782434000 0.553841s info: Listening on addresses: 127.0.0.1, 192.168.0.31
+2013-11-24T05:30:32.782441000 0.553849s info: Server ready

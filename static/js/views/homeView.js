@@ -12,11 +12,10 @@ define([
 	'use strict';
 
 	var list = [
-		{'src':'static/img/baboon_Composite.jpg' ,'title':'Monkey', 'descr': 'blue monkey or something'},
-		{'src':'static/img/MauiLab.jpg' ,'title':'House', 'descr': 'house kind of looks like shit'},
-		{'src':'static/img/olivia-munn.jpg' ,'title':'Hot Girl', 'descr': 'Olivia Munn can get it'},
-		{'src':'static/img/alison-brie.jpg' ,'title':'Hot Girl 2', 'descr': 'Alison Brie is cool too I guess'},
-		{'src':'static/img/Box.jpg' ,'title':'Box', 'descr': 'some words or something'}
+		{'src':'static/img/img10.png' ,'title':'Monkey', 'descr': 'blue monkey or something'},
+		{'src':'static/img/img11.png' ,'title':'Monkey', 'descr': 'blue monkey or something'},
+		{'src':'static/img/img11.png' ,'title':'Monkey', 'descr': 'blue monkey or something'},
+		{'src':'static/img/img12.png' ,'title':'Monkey', 'descr': 'blue monkey or something'}
 	];
 
 	var homeView = Backbone.View.extend({
@@ -64,7 +63,7 @@ define([
 
 		render_carousel: function () {
 			var template = _.template(CarouselTemplate);
-			for (var i = 0; i < 5; i++) {
+			for (var i = 0; i < list.length; i++) {
 				var li = document.createElement("li");
 				li.setAttribute('data-target', '#myCarousel');
 				li.setAttribute('data-slide', i);
