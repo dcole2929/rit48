@@ -93,8 +93,7 @@ define([
 				var row = $('<div>');
 				$(row).addClass("row");
 				for (var j = 0; j < 4; j++) {
-					console.log(i * 4 + j);
-					$(row).appendTo(template(EventCollection.at(i * 4 + j).toJSON()));
+					$(row).append(template(EventCollection.at(i * 4 + j).toJSON()));
 				}
 				this.$eventList.append(row); 
 			}

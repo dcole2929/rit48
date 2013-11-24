@@ -230,3 +230,13 @@
 2013-11-24T02:20:56.634758000 0.030488s info: Listening for administrative HTTP connections on port 9000
 2013-11-24T02:20:56.638974000 0.034703s info: Listening on addresses: 127.0.0.1, 192.168.0.31
 2013-11-24T02:20:56.638983000 0.034712s info: Server ready
+2013-11-24T04:36:22.122404000 0.300784s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-24T04:36:22.126839000 0.305219s info: Running on Darwin 13.0.0 x86_64
+2013-11-24T04:36:22.126894000 0.305273s info: Loading data from directory /Users/doug/dev/rit48/rethinkdb_data
+2013-11-24T04:36:22.135876000 0.314255s info: Listening for intracluster connections on port 29015
+2013-11-24T04:36:22.137426000 0.315805s info: Listening for client driver connections on port 28015
+2013-11-24T04:36:22.137447000 0.315827s info: Listening for administrative HTTP connections on port 8080
+2013-11-24T04:36:22.137450000 0.315829s info: Listening on addresses: 127.0.0.1
+2013-11-24T04:36:22.137451000 0.315830s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-11-24T04:36:22.137451000 0.315831s info: by running rethinkdb with the `--bind all` command line option.
+2013-11-24T04:36:22.137452000 0.315831s info: Server ready

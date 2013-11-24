@@ -1,0 +1,22 @@
+body {
+	font-family: "Helvetica Neue";
+	font-size: 14px;
+}
+
+div #event-list {
+	width: 1205px;
+	margin: 0 auto;
+}
+
+div.row {
+	margin-bottom: 10px;
+}
+
+div.span3 {
+	border: #888 1px solid;
+	text-align: center;
+}
+
+div.span3 p {
+	border-top: #888 1px solid;
+}
