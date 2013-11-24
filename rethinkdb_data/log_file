@@ -209,3 +209,24 @@
 2013-11-23T22:31:22.516177000 0.019903s info: To fully expose RethinkDB on the network, bind to all addresses
 2013-11-23T22:31:22.516177000 0.019904s info: by running rethinkdb with the `--bind all` command line option.
 2013-11-23T22:31:22.516178000 0.019904s info: Server ready
+2013-11-23T23:37:23.321723000 0.300291s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T23:37:23.328340000 0.306908s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T23:37:23.328573000 0.307140s info: Loading data from directory /Users/Jason/git/rit48/rethinkdb_data
+2013-11-23T23:37:23.341905000 0.320472s info: Listening for intracluster connections on port 29015
+2013-11-23T23:37:23.345281000 0.323849s info: Listening for client driver connections on port 28015
+2013-11-23T23:37:23.345311000 0.323879s info: Listening for administrative HTTP connections on port 9000
+2013-11-23T23:37:23.349716000 0.328284s info: Listening on addresses: 127.0.0.1, 192.168.0.31
+2013-11-23T23:37:23.349725000 0.328292s info: Server ready
+2013-11-24T02:20:55.955411000 1268.621514s info: Server got SIGINT; shutting down...
+2013-11-24T02:20:55.955664000 1268.621768s info: Shutting down client connections...
+2013-11-24T02:20:55.955924000 1268.622028s info: All client connections closed.
+2013-11-24T02:20:55.955933000 1268.622037s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-24T02:20:55.961350000 1268.627454s info: Storage engine shut down.
+2013-11-24T02:20:56.608426000 0.004156s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-24T02:20:56.614825000 0.010555s info: Running on Darwin 13.0.0 x86_64
+2013-11-24T02:20:56.615118000 0.010848s info: Loading data from directory /Users/Jason/git/rit48/rethinkdb_data
+2013-11-24T02:20:56.631897000 0.027626s info: Listening for intracluster connections on port 29015
+2013-11-24T02:20:56.634734000 0.030464s info: Listening for client driver connections on port 28015
+2013-11-24T02:20:56.634758000 0.030488s info: Listening for administrative HTTP connections on port 9000
+2013-11-24T02:20:56.638974000 0.034703s info: Listening on addresses: 127.0.0.1, 192.168.0.31
+2013-11-24T02:20:56.638983000 0.034712s info: Server ready
