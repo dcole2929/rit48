@@ -46,13 +46,7 @@ define([
 
 		},
 
-		render: function() { 
-			// var banner = document.createElement("img");
-			// banner.setAttribute("src", "static/img/baboon_Composite.jpg");
-			// banner.setAttribute("height",512);
-			// banner.setAttribute("width",512);
-			// this.$banner.append(banner);
-
+		render: function() {
 			this.render_carousel();
 			this.render_tiles();
 			this.render_nav(); 
