@@ -10,7 +10,7 @@ define([
 	var EventCollection = Backbone.Collection.extend({
 
 		model: EventModel,
-		url: '/events'
+		  url: 'http://localhost:8181/events'
 
 
 	});

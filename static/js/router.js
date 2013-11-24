@@ -17,11 +17,9 @@ define([
 
     var initialize = function () {
         var app_router = new AppRouter;
-        console.log("App router made");
         app_router.on('route:home', function () {
             var homeView = new HomeView();
-            homeView.render();
-            console.log("after render");
+            //homeView.render();
         });
 
         Backbone.history.start();

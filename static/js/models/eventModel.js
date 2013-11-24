@@ -7,7 +7,7 @@ define([
 	'use strict';
 
 	var EventModel = Backbone.Model.extend({
-		
+		url: 'http://localhost:8181/events'
 	});
 
 	return EventModel;

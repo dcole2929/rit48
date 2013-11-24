@@ -1,0 +1,50 @@
+2013-11-23T17:43:43.940327000 0.038319s info: Creating directory /Users/doug/dev/rit48/static/rethinkdb_data
+2013-11-23T17:43:43.940521000 0.038512s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T17:43:43.945272000 0.043264s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T17:43:43.945332000 0.043323s info: Loading data from directory /Users/doug/dev/rit48/static/rethinkdb_data
+2013-11-23T17:43:44.133161000 0.231152s info: Listening for intracluster connections on port 29015
+2013-11-23T17:43:44.133235000 0.231226s info: Attempting connection to 1 peer...
+2013-11-23T17:43:44.220404000 0.318395s info: Listening for client driver connections on port 28015
+2013-11-23T17:43:44.220422000 0.318413s info: Listening for administrative HTTP connections on port 8080
+2013-11-23T17:43:44.220423000 0.318414s info: Listening on addresses: 127.0.0.1
+2013-11-23T17:43:44.220423000 0.318414s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-11-23T17:43:44.220424000 0.318415s info: by running rethinkdb with the `--bind all` command line option.
+2013-11-23T17:43:44.220425000 0.318415s info: Server ready
+2013-11-23T17:43:44.231433000 0.329425s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:07:30.704288000 1426.846078s error: Heartbeat timeout, killing connection to peer: 6264c1ae-d38b-498e-a0eb-d39afb7e74cf.
+2013-11-23T18:07:30.704857000 1426.846647s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:40:34.041492000 1495.829938s info: Server got SIGINT; shutting down...
+2013-11-23T18:40:34.041783000 1495.830229s info: Shutting down client connections...
+2013-11-23T18:40:34.042183000 1495.830629s info: All client connections closed.
+2013-11-23T18:40:34.042190000 1495.830636s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T18:40:34.042192000 1495.830638s info: Storage engine shut down.
+2013-11-23T18:40:50.090858000 0.004335s info: Running rethinkdb 1.10.1 (CLANG 5.0 (clang-500.2.79))...
+2013-11-23T18:40:50.099017000 0.012494s info: Running on Darwin 13.0.0 x86_64
+2013-11-23T18:40:50.099078000 0.012554s info: Loading data from directory /Users/doug/dev/rit48/static/rethinkdb_data
+2013-11-23T18:40:50.108317000 0.021793s info: Listening for intracluster connections on port 29015
+2013-11-23T18:40:50.108497000 0.021973s info: Attempting connection to 1 peer...
+2013-11-23T18:40:50.191866000 0.105341s info: Listening for client driver connections on port 28015
+2013-11-23T18:40:50.191895000 0.105371s info: Listening for administrative HTTP connections on port 8080
+2013-11-23T18:40:50.191897000 0.105372s info: Listening on addresses: 127.0.0.1
+2013-11-23T18:40:50.191898000 0.105374s info: To fully expose RethinkDB on the network, bind to all addresses
+2013-11-23T18:40:50.191900000 0.105375s info: by running rethinkdb with the `--bind all` command line option.
+2013-11-23T18:40:50.191900000 0.105376s info: Server ready
+2013-11-23T18:40:50.215926000 0.129402s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:41:49.494119000 59.409613s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:41:51.594792000 61.510355s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:41:57.835367000 67.751169s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:42:03.483213000 73.399185s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:48:55.882541000 485.342769s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:50:57.495331000 606.959664s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:51:00.102625000 609.567061s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:51:29.109326000 638.574720s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:51:34.442832000 643.908431s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:52:08.846204000 678.312932s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:53:31.433020000 760.902554s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T18:53:44.080678000 773.550589s info: Connected to server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae
+2013-11-23T19:20:06.404229000 2355.927599s info: Server got SIGINT; shutting down...
+2013-11-23T19:20:06.404521000 2355.927890s info: Shutting down client connections...
+2013-11-23T19:20:06.404731000 2355.928100s info: All client connections closed.
+2013-11-23T19:20:06.404738000 2355.928108s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2013-11-23T19:20:06.408320000 2355.931690s info: Storage engine shut down.
+2013-11-23T19:20:06.408987000 2355.932357s info: Disconnected from server "derp" b88eab80-3862-49aa-93b0-5cd2d02c22ae

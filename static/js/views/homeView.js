@@ -16,14 +16,21 @@ define([
 		},
 
 		initialize: function() {
+			var me = this;
 			this.$banner = this.$('#img-blob');
 
-			
 
 			// Bind to collections events
-			this.listenTo(EventCollection, 'all', this.render);
+			//this.listenTo(EventCollection, 'all', this.render);
+			EventCollection.fetch({
+				success: function() {
+					me.render();
+				},
+				error: function() {
+					console.log("error: failed to fetch");
+				}
+			});
 
-			EventCollection.fetch();
 		},
 
 		render: function() { 
@@ -33,6 +40,7 @@ define([
 			banner.setAttribute("height",512);
 			banner.setAttribute("width",512);
 			this.$banner.append(banner);
+
 		}
 
 	});
