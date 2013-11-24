@@ -12,9 +12,8 @@ define([
 		model: EventModel,
 		  url: 'http://localhost:8181/events'
 
-
 	});
 
 	return new EventCollection();
 
-});
+	});
